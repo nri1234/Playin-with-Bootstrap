@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background: #e6e6e6;
+    width: auto;
+    margin: 0 15px;
+}
+.row {
+    padding: 35px;
+}
+.navbar {
+    background: white;
+    border: 1px solid black;
+    margin: 5px 15px;
+}
+a {
+    font-size: 18px;
+}
+.contact {
+    max-width: 500px;
+}
+[class*="offer"] {
+    min-height: 300px;
+}
+
+.info {
+    padding-top: 50px;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    border: 1px solid black;
+}
+.offer {
+    background-color: #80bfff;
+    background-size: cover;
+}
+
+.center-block {
+    display: block;
+    margin: 5px auto;
+}
+.offers {
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
+.media {
+    padding: 25px 0;
+}
+.media-object {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+.media-body {
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+}
+.text-hidden {
+    margin: 0;
+    border: 1px solid black;
+}
+.icon-btn {
+    border-radius: 100%;
+    background: white;
+    border: 1px solid black;
+}
